@@ -1,2 +1,2 @@
 # Error_Pastebin
-Personal Pastebin for lenghty errors
+Personal Pastebin for lengthy errors
