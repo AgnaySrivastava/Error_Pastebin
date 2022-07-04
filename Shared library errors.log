@@ -1,0 +1,10 @@
+hardware/qcom-caf/sm8150/media/mm-video-v4l2/vidc/vdec/Android.mk: error: "libOmxVdec (SHARED_LIBRARIES android-arm64) missing libqdMetaData (SHARED_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+hardware/qcom-caf/sm8150/media/mm-video-v4l2/vidc/vdec/Android.mk: error: "libOmxVdec (SHARED_LIBRARIES android-arm) missing libqdMetaData (SHARED_LIBRARIES android-arm)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+hardware/qcom-caf/sm8150/media/mm-video-v4l2/vidc/venc/Android.mk: error: "libOmxVenc (SHARED_LIBRARIES android-arm64) missing libqdMetaData (SHARED_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+hardware/qcom-caf/sm8150/media/mm-video-v4l2/vidc/venc/Android.mk: error: "libOmxVenc (SHARED_LIBRARIES android-arm) missing libqdMetaData (SHARED_LIBRARIES android-arm)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+build/make/core/main.mk:1122: error: exiting from previous errors.
+15:15:46 ckati failed with: exit status 1
