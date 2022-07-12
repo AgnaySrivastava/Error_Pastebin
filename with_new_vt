@@ -1,0 +1,178 @@
+
+You're building on Linux
+
+Lunch menu... pick a combo:
+     1. aosp_arm-eng
+     2. aosp_arm64-eng
+     3. aosp_car_arm-userdebug
+     4. aosp_car_arm64-userdebug
+     5. aosp_car_x86-userdebug
+     6. aosp_car_x86_64-userdebug
+     7. aosp_cf_arm64_auto-userdebug
+     8. aosp_cf_arm64_phone-userdebug
+     9. aosp_cf_x86_64_foldable-userdebug
+     10. aosp_cf_x86_64_pc-userdebug
+     11. aosp_cf_x86_64_phone-userdebug
+     12. aosp_cf_x86_64_tv-userdebug
+     13. aosp_cf_x86_auto-userdebug
+     14. aosp_cf_x86_phone-userdebug
+     15. aosp_cf_x86_tv-userdebug
+     16. aosp_x86-eng
+     17. aosp_x86_64-eng
+     18. arm_krait-eng
+     19. arm_v7_v8-eng
+     20. armv8-eng
+     21. armv8_cortex_a55-eng
+     22. armv8_kryo385-eng
+     23. car_ui_portrait-userdebug
+     24. car_x86_64-userdebug
+     25. gsi_car_arm64-userdebug
+     26. gsi_car_x86_64-userdebug
+     27. lineage_RMX1931-eng
+     28. lineage_RMX1931-user
+     29. lineage_RMX1931-userdebug
+     30. lineage_gsi_arm-userdebug
+     31. lineage_gsi_arm64-userdebug
+     32. lineage_gsi_car_arm64-userdebug
+     33. lineage_gsi_car_x86_64-userdebug
+     34. lineage_gsi_tv_arm-userdebug
+     35. lineage_gsi_tv_arm64-userdebug
+     36. lineage_gsi_tv_x86-userdebug
+     37. lineage_gsi_tv_x86_64-userdebug
+     38. lineage_gsi_x86-userdebug
+     39. lineage_gsi_x86_64-userdebug
+     40. lineage_sdk_car_arm64-userdebug
+     41. lineage_sdk_car_x86_64-userdebug
+     42. lineage_sdk_phone_x86-userdebug
+     43. lineage_sdk_phone_x86_64-userdebug
+     44. lineage_sdk_tv_arm-userdebug
+     45. lineage_sdk_tv_x86-userdebug
+     46. qemu_trusty_arm64-userdebug
+     47. sdk_car_arm-userdebug
+     48. sdk_car_arm64-userdebug
+     49. sdk_car_portrait_x86_64-userdebug
+     50. sdk_car_x86-userdebug
+     51. sdk_car_x86_64-userdebug
+     52. silvermont-eng
+     53. uml-userdebug
+
+Which would you like? [aosp_arm-eng] Trying dependencies-only mode on a non-existing device tree?
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=12
+CR_VERSION=8.6
+TARGET_DEVICE=RMX1931
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a9
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.18.10-xanmod1-1-x64v2-x86_64-Arch-Linux
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=SQ3A.220605.009.A1
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=vendor/realme/RMX1931 device/realme/RMX1931 vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/nxp/opensource/sn100x device/realme/RMX1931 hardware/qcom-caf/sm8150 vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/qcom/opensource/commonsys/system/bt/main
+============================================
+09:55:57 ************************************************************
+09:55:57 You are building on a machine with 15.4GB of RAM
+09:55:57 
+09:55:57 The minimum required amount of free memory is around 16GB,
+09:55:57 and even with that, some configurations may not work.
+09:55:57 
+09:55:57 If you run into segfaults or other errors, try reducing your
+09:55:57 -j value.
+09:55:57 ************************************************************
+[1mbuild/make/core/soong_config.mk:199: [35mwarning: [0m[1mBOARD_PLAT_PUBLIC_SEPOLICY_DIR has been deprecated. Use SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS instead.[0m
+[1mbuild/make/core/soong_config.mk:200: [35mwarning: [0m[1mBOARD_PLAT_PRIVATE_SEPOLICY_DIR has been deprecated. Use SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS instead.[0m
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=12
+CR_VERSION=8.6
+TARGET_DEVICE=RMX1931
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=cortex-a9
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.18.10-xanmod1-1-x64v2-x86_64-Arch-Linux
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=SQ3A.220605.009.A1
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=vendor/realme/RMX1931 device/realme/RMX1931 vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/nxp/opensource/sn100x device/realme/RMX1931 hardware/qcom-caf/sm8150 vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/qcom/opensource/commonsys/system/bt/main
+============================================
+[  5% 1/18] regenerate globs shard 38 of 1024
+[ 11% 2/18] regenerate globs shard 72 of 1024
+[ 16% 3/18] regenerate globs shard 314 of 1024
+[ 22% 4/18] regenerate globs shard 198 of 1024
+[ 27% 5/18] regenerate globs shard 278 of 1024
+[ 33% 6/18] regenerate globs shard 562 of 1024
+[ 38% 7/18] regenerate globs shard 330 of 1024
+[ 44% 8/18] regenerate globs shard 114 of 1024
+[ 50% 9/18] regenerate globs shard 566 of 1024
+[ 55% 10/18] regenerate globs shard 825 of 1024
+[ 61% 11/18] regenerate globs shard 476 of 1024
+[ 66% 12/18] regenerate globs shard 986 of 1024
+[ 72% 13/18] regenerate globs shard 88 of 1024
+[ 77% 14/18] regenerate globs shard 893 of 1024
+[ 83% 15/18] regenerate globs shard 573 of 1024
+[ 88% 16/18] regenerate globs shard 338 of 1024
+[ 94% 17/18] regenerate globs shard 516 of 1024
+[100% 18/18] out/soong/.bootstrap/bin/soong_build out/soong/build.ninja
+FAILED: out/soong/build.ninja
+cd "$(dirname "out/soong/.bootstrap/bin/soong_build")" && BUILDER="$PWD/$(basename "out/soong/.bootstrap/bin/soong_build")" && cd / && env -i "$BUILDER"     --top "$TOP"     --out "out/soong"     -n "out"     -d "out/soong/build.ninja.d"     -t -l out/.module_paths/Android.bp.list -globFile out/soong/.bootstrap/build-globs.ninja -o out/soong/build.ninja --available_env out/soong/soong.environment.available --used_env out/soong/soong.environment.used Android.bp
+error: vendor/realme/RMX1931/Android.bp:234:1: module "manifest_android.hardware.drm@1.3-service.widevine" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:234:1: module "manifest_android.hardware.drm@1.3-service.widevine" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:234:1: module "manifest_android.hardware.drm@1.3-service.widevine" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:234:1: module "manifest_android.hardware.drm@1.3-service.widevine" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:198:1: module "android.hardware.neuralnetworks@1.3-service-qti-hta" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:198:1: module "android.hardware.neuralnetworks@1.3-service-qti-hta" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:198:1: module "android.hardware.neuralnetworks@1.3-service-qti-hta" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:198:1: module "android.hardware.neuralnetworks@1.3-service-qti-hta" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:216:1: module "vendor.qti.gnss@4.0-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:216:1: module "vendor.qti.gnss@4.0-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:216:1: module "vendor.qti.gnss@4.0-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:216:1: module "vendor.qti.gnss@4.0-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:207:1: module "android.hardware.neuralnetworks@1.3-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:207:1: module "android.hardware.neuralnetworks@1.3-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:207:1: module "android.hardware.neuralnetworks@1.3-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:207:1: module "android.hardware.neuralnetworks@1.3-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:243:1: module "manifest_engsensor" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:243:1: module "manifest_engsensor" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:243:1: module "manifest_engsensor" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:243:1: module "manifest_engsensor" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:225:1: module "vendor.qti.hardware.servicetracker@1.2-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:225:1: module "vendor.qti.hardware.servicetracker@1.2-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:225:1: module "vendor.qti.hardware.servicetracker@1.2-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:225:1: module "vendor.qti.hardware.servicetracker@1.2-service" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:189:1: module "android.hardware.gnss@2.1-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:189:1: module "android.hardware.gnss@2.1-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:189:1: module "android.hardware.gnss@2.1-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:189:1: module "android.hardware.gnss@2.1-service-qti" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:252:1: module "manifest_oplus_orms" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:252:1: module "manifest_oplus_orms" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:252:1: module "manifest_oplus_orms" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml" does not exist
+error: vendor/realme/RMX1931/Android.bp:252:1: module "manifest_oplus_orms" variant "android_arm64_armv8-a": module source path "vendor/realme/RMX1931/proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml" does not exist
+ninja: build stopped: subcommand failed.
+09:56:33 soong bootstrap failed with: exit status 1
+
+[0;31m#### failed to build some targets (36 seconds) ####[00m
+
